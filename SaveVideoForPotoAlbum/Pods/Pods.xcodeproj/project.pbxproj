@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61C291A805783A82D39D56780E426865 /* Pods-SaveVideoForPotoAlbumTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE33D99F3218AD9C4201B620F6416C43 /* Pods-SaveVideoForPotoAlbumTests-dummy.m */; };
+		79B541C70DA1D4A8D0E338F73A88C6A5 /* Pods-SaveVideoForPotoAlbumUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899F82CE3C3B238E3E83C52E3BD86A4 /* Pods-SaveVideoForPotoAlbumUITests-dummy.m */; };
+		94E744F8018C62C107FA8E053CEA7BA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC138D45F2CFD9EAAAA38B7CF0A8250 /* CoreGraphics.framework */; };
+		B208DFD782346C6A1F400EAB2DF36455 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91494AC3C559D43BE60EB6298C7CB2D6 /* QuartzCore.framework */; };
+		BB4081015DA88477E27A91FC9C713B0C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */; };
+		BE08FC3CA35C9B85C0B51D945646E7E3 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D669E6004423E44271C78E7FE5E5582B /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */; };
+		DCB9F60D1C06F75BB4FD057E45C3540B /* Pods-SaveVideoForPotoAlbum-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161208B8FB8B5225C76C3E22FDB64C9 /* Pods-SaveVideoForPotoAlbum-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71BB6C0B27C9732F34F31E8D5DEB2A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941B13510F081266F1C91BD06C49D96B;
+			remoteInfo = "Pods-SaveVideoForPotoAlbum";
+		};
+		AF1632C92D03587EEB7D2F17775B43FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175B076ED45EB1A3E40F58BA14036467;
+			remoteInfo = MBProgressHUD;
+		};
+		F8817B7A489D687B1C6BDED11F08E23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941B13510F081266F1C91BD06C49D96B;
+			remoteInfo = "Pods-SaveVideoForPotoAlbum";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036BE2597F949A296942F4B51C8252A5 /* Pods-SaveVideoForPotoAlbumUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SaveVideoForPotoAlbumUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E4A8943F7F228250014BF0F14018D12 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3BE5D9FBBEAB0280715D10E15A19FF /* Pods-SaveVideoForPotoAlbumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaveVideoForPotoAlbumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2161208B8FB8B5225C76C3E22FDB64C9 /* Pods-SaveVideoForPotoAlbum-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SaveVideoForPotoAlbum-dummy.m"; sourceTree = "<group>"; };
+		2BA78DAB3CA9DA80670C48D7EC0218CD /* Pods-SaveVideoForPotoAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaveVideoForPotoAlbum.release.xcconfig"; sourceTree = "<group>"; };
+		30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		34A96905BDE9C9E2C3FCFA384E7852AC /* libPods-SaveVideoForPotoAlbumTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SaveVideoForPotoAlbumTests.a"; path = "libPods-SaveVideoForPotoAlbumTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA4EDDB1FBB98620307AAD9793FD6AE /* Pods-SaveVideoForPotoAlbumTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SaveVideoForPotoAlbumTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48683100DB4880D2535B9E0D88B6B8B8 /* Pods-SaveVideoForPotoAlbumTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaveVideoForPotoAlbumTests-frameworks.sh"; sourceTree = "<group>"; };
+		4BF1969C8597B0A71D85A7858F510398 /* Pods-SaveVideoForPotoAlbumTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaveVideoForPotoAlbumTests-resources.sh"; sourceTree = "<group>"; };
+		50E857A31C1140B7D0C44C731B615963 /* Pods-SaveVideoForPotoAlbumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaveVideoForPotoAlbumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5140015D39C4DE42F8D492D097C52FE0 /* Pods-SaveVideoForPotoAlbum-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SaveVideoForPotoAlbum-acknowledgements.plist"; sourceTree = "<group>"; };
+		52E17DFDFE7FBD0B5585942B6CA70863 /* libPods-SaveVideoForPotoAlbum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SaveVideoForPotoAlbum.a"; path = "libPods-SaveVideoForPotoAlbum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B081D9A480AF1D0A97CB2F9027799D5 /* Pods-SaveVideoForPotoAlbumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaveVideoForPotoAlbumTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DE0302CA7F6E6174706128513BAA00F /* Pods-SaveVideoForPotoAlbum-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SaveVideoForPotoAlbum-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63433420773277A0DDB28A37981FC2B6 /* Pods-SaveVideoForPotoAlbumUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaveVideoForPotoAlbumUITests-resources.sh"; sourceTree = "<group>"; };
+		642B7A39B620051F1CAB722B707D3222 /* Pods-SaveVideoForPotoAlbum-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaveVideoForPotoAlbum-resources.sh"; sourceTree = "<group>"; };
+		80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		8CC5ADA1100C307F492E1C451E05BE3A /* libPods-SaveVideoForPotoAlbumUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SaveVideoForPotoAlbumUITests.a"; path = "libPods-SaveVideoForPotoAlbumUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91494AC3C559D43BE60EB6298C7CB2D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		971CA5C60D19A17AEEBD92B1C13992D2 /* Pods-SaveVideoForPotoAlbumUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaveVideoForPotoAlbumUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		9899F82CE3C3B238E3E83C52E3BD86A4 /* Pods-SaveVideoForPotoAlbumUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SaveVideoForPotoAlbumUITests-dummy.m"; sourceTree = "<group>"; };
+		9EC314F46EDE91DD2A7B341222E51EDE /* Pods-SaveVideoForPotoAlbumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaveVideoForPotoAlbumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B3B5512019A80F2CF7650B4D7B160C /* Pods-SaveVideoForPotoAlbum-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaveVideoForPotoAlbum-frameworks.sh"; sourceTree = "<group>"; };
+		AABE45081325970398177350B3365B5A /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		AE33D99F3218AD9C4201B620F6416C43 /* Pods-SaveVideoForPotoAlbumTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SaveVideoForPotoAlbumTests-dummy.m"; sourceTree = "<group>"; };
+		AEC138D45F2CFD9EAAAA38B7CF0A8250 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B070640CB366ED6316954E28C28A2185 /* Pods-SaveVideoForPotoAlbumTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SaveVideoForPotoAlbumTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B30D7306E36AA922F76163173A1EF52B /* Pods-SaveVideoForPotoAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaveVideoForPotoAlbum.debug.xcconfig"; sourceTree = "<group>"; };
+		C45D1D198E24F4CC4147FF8CBC7AA666 /* Pods-SaveVideoForPotoAlbumUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SaveVideoForPotoAlbumUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E74CD4A119DA52DCF655F28768162F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED30F8189F7177D9E66FA994E446EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A320E60D147224E3BED6F99F4B437C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E744F8018C62C107FA8E053CEA7BA1 /* CoreGraphics.framework in Frameworks */,
+				B208DFD782346C6A1F400EAB2DF36455 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2C4EE4369D80F1671A2BDF768D1913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077EB30DB6AD0F301EC92B8EAEA22722 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */,
+				30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */,
+				2848C0E8056CB6EE547CD6E0C1780766 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		11685B6F2A157011C80200090D08D317 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEC138D45F2CFD9EAAAA38B7CF0A8250 /* CoreGraphics.framework */,
+				91494AC3C559D43BE60EB6298C7CB2D6 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1FC13FEB9E72360A9CAED9432B0063D8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				911C60A9484FBAAEE66FADC8B11C3B7C /* Pods-SaveVideoForPotoAlbum */,
+				BE0DE6EFD5D6763B76ED6A8B38912D13 /* Pods-SaveVideoForPotoAlbumTests */,
+				2B1F644B35B4C4C6CB01C1B9CEB84ACC /* Pods-SaveVideoForPotoAlbumUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2848C0E8056CB6EE547CD6E0C1780766 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */,
+				9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */,
+				AABE45081325970398177350B3365B5A /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		2B1F644B35B4C4C6CB01C1B9CEB84ACC /* Pods-SaveVideoForPotoAlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036BE2597F949A296942F4B51C8252A5 /* Pods-SaveVideoForPotoAlbumUITests-acknowledgements.markdown */,
+				C45D1D198E24F4CC4147FF8CBC7AA666 /* Pods-SaveVideoForPotoAlbumUITests-acknowledgements.plist */,
+				9899F82CE3C3B238E3E83C52E3BD86A4 /* Pods-SaveVideoForPotoAlbumUITests-dummy.m */,
+				971CA5C60D19A17AEEBD92B1C13992D2 /* Pods-SaveVideoForPotoAlbumUITests-frameworks.sh */,
+				63433420773277A0DDB28A37981FC2B6 /* Pods-SaveVideoForPotoAlbumUITests-resources.sh */,
+				50E857A31C1140B7D0C44C731B615963 /* Pods-SaveVideoForPotoAlbumUITests.debug.xcconfig */,
+				1B3BE5D9FBBEAB0280715D10E15A19FF /* Pods-SaveVideoForPotoAlbumUITests.release.xcconfig */,
+			);
+			name = "Pods-SaveVideoForPotoAlbumUITests";
+			path = "Target Support Files/Pods-SaveVideoForPotoAlbumUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11685B6F2A157011C80200090D08D317 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				077EB30DB6AD0F301EC92B8EAEA22722 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A7E7236D92C4837CAE0FF67324CB802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4A8943F7F228250014BF0F14018D12 /* libMBProgressHUD.a */,
+				52E17DFDFE7FBD0B5585942B6CA70863 /* libPods-SaveVideoForPotoAlbum.a */,
+				34A96905BDE9C9E2C3FCFA384E7852AC /* libPods-SaveVideoForPotoAlbumTests.a */,
+				8CC5ADA1100C307F492E1C451E05BE3A /* libPods-SaveVideoForPotoAlbumUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5836A44A75C427EBF4739C55E2315758 /* Pods */,
+				6A7E7236D92C4837CAE0FF67324CB802 /* Products */,
+				1FC13FEB9E72360A9CAED9432B0063D8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		911C60A9484FBAAEE66FADC8B11C3B7C /* Pods-SaveVideoForPotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0302CA7F6E6174706128513BAA00F /* Pods-SaveVideoForPotoAlbum-acknowledgements.markdown */,
+				5140015D39C4DE42F8D492D097C52FE0 /* Pods-SaveVideoForPotoAlbum-acknowledgements.plist */,
+				2161208B8FB8B5225C76C3E22FDB64C9 /* Pods-SaveVideoForPotoAlbum-dummy.m */,
+				A5B3B5512019A80F2CF7650B4D7B160C /* Pods-SaveVideoForPotoAlbum-frameworks.sh */,
+				642B7A39B620051F1CAB722B707D3222 /* Pods-SaveVideoForPotoAlbum-resources.sh */,
+				B30D7306E36AA922F76163173A1EF52B /* Pods-SaveVideoForPotoAlbum.debug.xcconfig */,
+				2BA78DAB3CA9DA80670C48D7EC0218CD /* Pods-SaveVideoForPotoAlbum.release.xcconfig */,
+			);
+			name = "Pods-SaveVideoForPotoAlbum";
+			path = "Target Support Files/Pods-SaveVideoForPotoAlbum";
+			sourceTree = "<group>";
+		};
+		BE0DE6EFD5D6763B76ED6A8B38912D13 /* Pods-SaveVideoForPotoAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4EDDB1FBB98620307AAD9793FD6AE /* Pods-SaveVideoForPotoAlbumTests-acknowledgements.markdown */,
+				B070640CB366ED6316954E28C28A2185 /* Pods-SaveVideoForPotoAlbumTests-acknowledgements.plist */,
+				AE33D99F3218AD9C4201B620F6416C43 /* Pods-SaveVideoForPotoAlbumTests-dummy.m */,
+				48683100DB4880D2535B9E0D88B6B8B8 /* Pods-SaveVideoForPotoAlbumTests-frameworks.sh */,
+				4BF1969C8597B0A71D85A7858F510398 /* Pods-SaveVideoForPotoAlbumTests-resources.sh */,
+				9EC314F46EDE91DD2A7B341222E51EDE /* Pods-SaveVideoForPotoAlbumTests.debug.xcconfig */,
+				5B081D9A480AF1D0A97CB2F9027799D5 /* Pods-SaveVideoForPotoAlbumTests.release.xcconfig */,
+			);
+			name = "Pods-SaveVideoForPotoAlbumTests";
+			path = "Target Support Files/Pods-SaveVideoForPotoAlbumTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EFC33D369E9A80BFCC07EAB513251186 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE08FC3CA35C9B85C0B51D945646E7E3 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C66CB3E04875BC1C255326C7ADB2D78 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				F8A85461B9C4DE8B6DF401D993570773 /* Sources */,
+				54A320E60D147224E3BED6F99F4B437C /* Frameworks */,
+				EFC33D369E9A80BFCC07EAB513251186 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 0E4A8943F7F228250014BF0F14018D12 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C5BD236C5A85F7BF698B23B7B848D68 /* Pods-SaveVideoForPotoAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7150BB8FA8F481B288C0DE4A2678BF18 /* Build configuration list for PBXNativeTarget "Pods-SaveVideoForPotoAlbumTests" */;
+			buildPhases = (
+				21CAFE3EC892B671E95A3D9070140233 /* Sources */,
+				6A2C4EE4369D80F1671A2BDF768D1913 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B92F79330899FF95EF63A7EB6D8EF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SaveVideoForPotoAlbumTests";
+			productName = "Pods-SaveVideoForPotoAlbumTests";
+			productReference = 34A96905BDE9C9E2C3FCFA384E7852AC /* libPods-SaveVideoForPotoAlbumTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4FC1448C25C733759C526B6EA0F09B04 /* Pods-SaveVideoForPotoAlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36003C98860B92EDDEB6E178D34FF386 /* Build configuration list for PBXNativeTarget "Pods-SaveVideoForPotoAlbumUITests" */;
+			buildPhases = (
+				DB6DF673B6313D28A24653D1026DE7D2 /* Sources */,
+				0E74CD4A119DA52DCF655F28768162F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				443895ECEEF473C304581392A404E93E /* PBXTargetDependency */,
+			);
+			name = "Pods-SaveVideoForPotoAlbumUITests";
+			productName = "Pods-SaveVideoForPotoAlbumUITests";
+			productReference = 8CC5ADA1100C307F492E1C451E05BE3A /* libPods-SaveVideoForPotoAlbumUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		941B13510F081266F1C91BD06C49D96B /* Pods-SaveVideoForPotoAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277C5C5ECC64DF6CDA7DE3455CB40225 /* Build configuration list for PBXNativeTarget "Pods-SaveVideoForPotoAlbum" */;
+			buildPhases = (
+				D67425E826946D34D7A8772D6970E184 /* Sources */,
+				2ED30F8189F7177D9E66FA994E446EF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C8D2405C7774B4CD527B8365762010 /* PBXTargetDependency */,
+			);
+			name = "Pods-SaveVideoForPotoAlbum";
+			productName = "Pods-SaveVideoForPotoAlbum";
+			productReference = 52E17DFDFE7FBD0B5585942B6CA70863 /* libPods-SaveVideoForPotoAlbum.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6A7E7236D92C4837CAE0FF67324CB802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */,
+				941B13510F081266F1C91BD06C49D96B /* Pods-SaveVideoForPotoAlbum */,
+				3C5BD236C5A85F7BF698B23B7B848D68 /* Pods-SaveVideoForPotoAlbumTests */,
+				4FC1448C25C733759C526B6EA0F09B04 /* Pods-SaveVideoForPotoAlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21CAFE3EC892B671E95A3D9070140233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C291A805783A82D39D56780E426865 /* Pods-SaveVideoForPotoAlbumTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67425E826946D34D7A8772D6970E184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB9F60D1C06F75BB4FD057E45C3540B /* Pods-SaveVideoForPotoAlbum-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6DF673B6313D28A24653D1026DE7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B541C70DA1D4A8D0E338F73A88C6A5 /* Pods-SaveVideoForPotoAlbumUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A85461B9C4DE8B6DF401D993570773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D669E6004423E44271C78E7FE5E5582B /* MBProgressHUD-dummy.m in Sources */,
+				BB4081015DA88477E27A91FC9C713B0C /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		443895ECEEF473C304581392A404E93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SaveVideoForPotoAlbum";
+			target = 941B13510F081266F1C91BD06C49D96B /* Pods-SaveVideoForPotoAlbum */;
+			targetProxy = 71BB6C0B27C9732F34F31E8D5DEB2A13 /* PBXContainerItemProxy */;
+		};
+		B0B92F79330899FF95EF63A7EB6D8EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SaveVideoForPotoAlbum";
+			target = 941B13510F081266F1C91BD06C49D96B /* Pods-SaveVideoForPotoAlbum */;
+			targetProxy = F8817B7A489D687B1C6BDED11F08E23E /* PBXContainerItemProxy */;
+		};
+		D1C8D2405C7774B4CD527B8365762010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */;
+			targetProxy = AF1632C92D03587EEB7D2F17775B43FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F0CB6AF2EF570A678A42C763335FCD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B081D9A480AF1D0A97CB2F9027799D5 /* Pods-SaveVideoForPotoAlbumTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6587187038F7F8842A53ED9818163867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C375C56664C0F8645416F9805A80330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC314F46EDE91DD2A7B341222E51EDE /* Pods-SaveVideoForPotoAlbumTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF7E506C324C754453D69E51EAFB5262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2348173B7D03997437B24BD13A10692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30D7306E36AA922F76163173A1EF52B /* Pods-SaveVideoForPotoAlbum.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4CA02DC8EB869626DB1407F575FBD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA78DAB3CA9DA80670C48D7EC0218CD /* Pods-SaveVideoForPotoAlbum.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7417A724B1BAAD8CB8308B1D4004B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3BE5D9FBBEAB0280715D10E15A19FF /* Pods-SaveVideoForPotoAlbumUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9767D6CEF25B6EE384C46FE7163AD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E857A31C1140B7D0C44C731B615963 /* Pods-SaveVideoForPotoAlbumUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277C5C5ECC64DF6CDA7DE3455CB40225 /* Build configuration list for PBXNativeTarget "Pods-SaveVideoForPotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2348173B7D03997437B24BD13A10692 /* Debug */,
+				D4CA02DC8EB869626DB1407F575FBD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36003C98860B92EDDEB6E178D34FF386 /* Build configuration list for PBXNativeTarget "Pods-SaveVideoForPotoAlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9767D6CEF25B6EE384C46FE7163AD45 /* Debug */,
+				D7417A724B1BAAD8CB8308B1D4004B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7150BB8FA8F481B288C0DE4A2678BF18 /* Build configuration list for PBXNativeTarget "Pods-SaveVideoForPotoAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C375C56664C0F8645416F9805A80330 /* Debug */,
+				3F0CB6AF2EF570A678A42C763335FCD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C66CB3E04875BC1C255326C7ADB2D78 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7E506C324C754453D69E51EAFB5262 /* Debug */,
+				6587187038F7F8842A53ED9818163867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
